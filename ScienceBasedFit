@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emagrecimento Científico - Oferta Exclusiva</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #1fa774, #147d54);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #1fa774;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #147d54;
+        }
+        .price-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .price-section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .price-section p {
+            font-size: 1.2em;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #888;
+        }
+        .benefits {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        .benefits h3 {
+            text-align: center;
+            color: #147d54;
+        }
+        .benefits ul {
+            list-style: none;
+            padding: 0;
+        }
+        .benefits li {
+            padding: 10px 0;
+            font-size: 1.1em;
+            border-bottom: 1px solid #eee;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #147d54;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .cta-button {
+                font-size: 1.1em;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Emagrecimento Científico</h1>
+        <p>O guia completo para perder peso com saúde e resultados duradouros.</p>
+    </header>
+    <div class="container">
+        <div class="price-section">
+            <h2><span class="old-price">R$ 79,90</span> por apenas <strong>R$ 39,90</strong></h2>
+            <p>Oferta de lançamento por tempo limitado!</p>
+            <a href="#" class="cta-button">Comprar Agora</a>
+        </div>
+        <div class="benefits">
+            <h3>O que você vai encontrar:</h3>
+            <ul>
+                <li>50 capítulos baseados em ciência, divididos em 6 seções.</li>
+                <li>Dicas práticas de nutrição e exercícios para emagrecer de forma saudável.</li>
+                <li>Estratégias para melhorar hábitos, sono e controle de estresse.</li>
+                <li>Guias avançados como jejum intermitente e dieta flexível.</li>
+                <li>Passos comprovados para manter o peso perdido.</li>
+            </ul>
+        </div>
+        <div class="price-section">
+            <a href="#" class="cta-button">Garantir Meu Acesso</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 - Emagrecimento Científico. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
